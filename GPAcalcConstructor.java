@@ -4,7 +4,6 @@ public class GPAcalcConstructor{
 private double classNumber;
 //initializing all the variables these constructors need.
 Scanner scan=new Scanner(System.in);
-private double sum;
 private int classesAdded;
 double GPAtotal=0;
 double creditHours=0.0;
