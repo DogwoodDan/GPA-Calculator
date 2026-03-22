@@ -87,6 +87,9 @@ and credit hours*/
     public void studentNameSetter(){
         System.out.println("What is this Student's name?");
         studentName=scan.nextLine();
+        if (studentName==""){
+            studentName=scan.nextLine();
+        }
     }
 
 //prints the name of the current student
