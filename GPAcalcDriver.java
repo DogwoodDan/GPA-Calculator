@@ -134,6 +134,7 @@ public class GPAcalcDriver{
                    }
                    break;
                case 4:
+                   System.out.println("Thank you for trying this program. Goodbye");
                    System.exit(0);
                default:
                    System.out.println("Please enter a value between 1-4");
