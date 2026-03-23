@@ -27,11 +27,9 @@ is happening*/
             }
             if (classNumber==1){
                 System.out.println("\nPlease enter the last class's grade");
-
             }
             if(classNumber<CNGet && classNumber!=1){
                 System.out.println("\nPlease enter the next class's grade");
-
             }
             classesAdded=scan.nextInt();
             classNumber--;
@@ -71,7 +69,6 @@ and credit hours*/
               GPAtotal+=0*creditHourGetter;
           }
         }
-
         GPAtotal/=creditHours;
 
         return GPAtotal;

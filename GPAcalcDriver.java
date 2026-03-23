@@ -1,7 +1,8 @@
 import java.util.Scanner;
-
 public class GPAcalcDriver{
     public static void main(String[]args){
+
+//initializes the variables and methods used
         Boolean program=true;
         Scanner input = new Scanner(System.in);
         int userInput=0;
@@ -10,12 +11,16 @@ public class GPAcalcDriver{
         GPAcalcConstructor Student3=new GPAcalcConstructor();
         GPAcalcConstructor Student4=new GPAcalcConstructor();
         GPAcalcConstructor Student5=new GPAcalcConstructor();
+
+//starts the program by having the user complete the first student
         System.out.println("Welcome to the Student GPA Calculator\n" +
                 "This program can hold up to 5 students' information at a time.");
         Student1.studentNameSetter();
         Student1.GPAcalcConstructor();
         Student1.PrintGPA();
 
+/*this while loop basically is the rest of the program, it allows for editing and
+viewing of different students' names and GPAs*/
        while (program==true) {
            System.out.println("\nWhat do you want to do?\n" +
                    "1. View A Student's GPA\n" +
@@ -141,10 +146,6 @@ public class GPAcalcDriver{
                    System.out.println("Please enter a value between 1-4");
                    break;
            }
-
-
        }
     }
-
-
 }
