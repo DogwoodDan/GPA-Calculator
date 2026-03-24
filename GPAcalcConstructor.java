@@ -14,6 +14,8 @@ private String studentName="Student";
 //this is the method that calculated a student's grade.
     public double GPAcalcConstructor(){
 
+        GPAtotal=0;
+        creditHours=0;
 //gets the number of classes the student is calculating.
         System.out.println("Please enter how many classes this student has taken thus far");
         classNumber=scan.nextDouble();
