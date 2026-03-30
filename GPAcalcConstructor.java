@@ -24,7 +24,7 @@ private String studentName="Student";
 /*these if-statements are just making the user experience better by showing that something
 is happening*/
         while (classNumber>=1){
-            if (classNumber==CNGet){
+            if (classNumber==CNGet && CNGet!=1){
                 System.out.println("\nPlease enter the first class's grade");
             }
             if (classNumber==1){
